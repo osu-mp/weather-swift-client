@@ -92,8 +92,6 @@ private struct Hello: Decodable {
     }
 }
 
-
-
 private struct Weather: Decodable {
     let main: Main
 
@@ -101,3 +99,5 @@ private struct Weather: Decodable {
         let temp: Double
     }
 }
+
+// commit 1 comment
