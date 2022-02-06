@@ -11,6 +11,7 @@ public class WeatherServiceImpl: WeatherService {
     let url      = "http://52.55.131.241:3000/v1/weather/"
     let hello_url = "http://52.55.131.241:3000/v1/hello/"
 
+    // auth params
     let user_param = ["username": "joe", "password": "my_password2"]
 
     public init(){}
@@ -93,8 +94,6 @@ private struct Hello: Decodable {
         let greeting: String
     }
 }
-
-
 
 private struct Weather: Decodable {
     let main: Main
