@@ -103,5 +103,3 @@ private struct Weather: Decodable {
         let temp: Double
     }
 }
-
-// commit 2 comment
